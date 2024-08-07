@@ -8,7 +8,7 @@ dropthly is a stealthy dropper for Linux which downloads and executes entire bin
 The program just use very simple and direct method to drop payload.
   1) Connect to ip 127.0.0.1 on port 4444 of malware server.<br>
   2) Creates a memory file using <code>memfd_create()</code>.<br>
-  3) Reads data from the socket and writes it into the memory file.<br>
+  3) Reads data from the stream and writes it into the memory file.<br>
   4) Runs the memory file using <code>execveat()</code> when all the data has been transferred and also becomes stealthy.
 
 ## Testing
