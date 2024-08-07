@@ -2,7 +2,7 @@ _____________________________________________
 ![maxresdefault](https://github.com/user-attachments/assets/f3d868ab-0eeb-4127-9be6-bc6ff920b0df)
 ______________________________________________
 # DROPTHLY
-dropthly is a stealthy dropper which downloads and executes entire binary in memory without leaving any tracks on victims machine.
+dropthly is a stealthy dropper for Linux which downloads and executes entire binary in memory without leaving any tracks on victims machine.
 
 ## Working
 The program just use very simple and direct method to drop payload.
